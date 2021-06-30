@@ -17,7 +17,7 @@ Constraints:
     0 <= k <= nums.length
 */
 
-package leetcode
+package goleetcode
 
 func longestOnes(nums []int, k int) int {
 	windowStart, windowEnd, nz, maxLength, winLength := 0, 0, 0, 0, 1
